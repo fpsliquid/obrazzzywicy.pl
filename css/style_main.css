@@ -1,0 +1,194 @@
+body {
+    font-family: 'Indie Flower', cursive;
+    font-size: 16px;
+    font-weight: lighter;
+    font-style: italic;
+    line-height: 1.25;
+    margin: 0;
+    padding: 0;
+    background: url(../img/bg.png) no-repeat center center fixed;
+    -webkit-background-size: cover;
+    -moz-background-size: cover;
+    -o-background-size: cover;
+    background-size: cover;
+  }
+
+  .main_box {
+    display: flex;
+    flex-direction: column;
+    height: 85vh;
+  }
+  
+  header {
+    background-color: #948c81;
+    color: #ffffff;
+    padding: 10px;
+    border-bottom: 1px solid black;
+    height:60px;
+    display: flex;
+  }
+
+  nav {
+    position:relative;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin: auto;
+    height:60px;
+
+  }
+
+  nav ul {
+    text-align: center;
+    list-style: none;
+    display: flex;
+  }
+  
+  nav li {
+    margin-left:40px;
+    margin-right:40px;
+
+  }
+  
+  nav a {
+    color: #fff;
+    text-decoration: none;
+    font-weight: bold;
+    font-size: 18px;
+    border-radius: 20px;
+    padding: 15px;
+  }
+  
+  nav a:hover {
+    background-color: #fff;
+    color: #948c81;
+    transition: all 0.4s ease-in-out;
+  }
+
+  .sign {
+    position: absolute;
+  }
+
+  .sig {
+    margin-top:-50px;
+    position:relative;
+    transform: rotate(5deg);
+  }
+
+  footer {
+    height: 50px;
+    border-top: 1px solid black;
+    display: flex;
+    margin-top: auto;
+  }
+
+  .social_media {
+    position: absolute;
+    right: 0;
+    width: 220px;
+  }
+
+  .social_media img {
+    margin: 10px;
+    float: right;
+    width: 30px;
+    height: 30px;
+  }
+
+  .footer_text_box {
+    margin: auto;
+    justify-content: center;
+  }
+
+
+  .t1 {
+    height: 15px;
+    width: 100%;
+    background-color: white;
+    margin: auto;
+    }
+
+  .t2 {
+    height: 12.5px;
+    width: 90%;
+    background-color: white;
+    margin: auto;
+    margin-top: 10px;
+  }
+
+  .t3 {
+    height: 10px;
+    width: 80%;
+    background-color: white;
+    margin: auto;
+    margin-top: 10px;
+  }
+  
+  
+
+  .left {
+    height: 80%;
+    float: left;
+    display: flex;
+  }
+
+  .l1 {
+    height: 95%;
+    width: 15px;
+    background-color: white;
+    float: left;
+    margin: auto;
+  }
+
+  .l2 {
+    height: 90%;
+    width: 12.5px;
+    background-color: white;
+    margin: auto;
+    margin-left: 10px;
+    float: left;
+  }
+
+  .l3 {
+    height: 85%;
+    width: 10px;
+    background-color: white;
+    margin: auto;
+    margin-left: 10px;
+    float: left;
+  }
+
+
+  
+  .right {
+    height: 80%;
+    float: right;
+    display: flex;
+  }
+
+  .r1 {
+    height: 85%;
+    width: 10px;
+    background-color: white;
+    margin: auto;
+    margin-right: 10px;
+    float: right;
+  }
+
+  .r2 {
+    height: 90%;
+    width: 12.5px;
+    background-color: white;
+    margin: auto;
+    margin-right: 10px;
+    float: right;
+  }
+
+  .r3 {
+    height: 95%;
+    width: 15px;
+    background-color: white;
+    margin: auto;
+    float: right;
+  }
+

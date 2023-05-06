@@ -1,0 +1,192 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<title>Liquid-Art</title>
+	<meta charset="UTF-8">
+	<link rel="stylesheet" href="css/style_main.css">
+	<link rel="stylesheet" href="css/style_order.css">
+
+</head>
+<body>
+	<header>
+		<nav>
+			<ul>
+				<li><a href="main_page.html">Strona Główna</a></li>
+				<li><a href="gallery.html">Oferta</a></li>
+				<li><a href="order.html">Na Zamówienie</a></li>
+				<li><a href="#">Wkrótce</a></li>
+                <li><a href="#">Kontakt</a></li>
+			</ul>
+		</nav>
+	</header>
+
+	<div class="sign">
+		<img class="sig"  width=15% src="img/sign.png" alt="signature">
+	</div>
+
+	<div class="main_box">
+    	<main>
+    	    <div class="top">
+    	        <div class="t1"></div>
+    	        <div class="t2"></div>
+    	        <div class="t3"></div>
+    	    </div>
+
+    	    <div class="left">
+    	        <div class="l1"></div>
+    	        <div class="l2"></div>
+    	        <div class="l3"></div>
+    	    </div>
+
+    	    <div class="right">
+    	        <div class="r1"></div>
+    	        <div class="r2"></div>
+    	        <div class="r3"></div>
+    	    </div>
+
+			<form>
+
+				<div class="form-box">
+
+					<div class="first-first">
+						<p>Rozmiar</p>
+
+						<label>Wysokość<input name="Wysokość" type="range" min="10" max="300" value="150"></label>
+						<label>Szerokość<input name="Szerokość" type="range" min="10" max="300" value="150"></label>
+					</div>
+
+
+					<div class="second-first">
+						<p>Orientacja</p>
+
+						<div style="float: left; width: 50%; ">
+							<label>
+							  <input type="checkbox" name="Orientacja" value="Pionowa"> Pionowa
+							</label>
+						</div>
+
+						<div style="float: right; width: 50%;">
+							<label>
+							  <input type="checkbox" name="Orientacja" value="Pozioma"> Pozioma
+							</label>
+						</div>
+					</div>
+
+
+					<div class="first-second">
+						<p>Kolorystyka</p>
+
+						<div style="float: left; width: 50%; ">
+							<label>
+							  <input type="checkbox" name="Kolorystyka" value="Beż"> Beż
+							</label>
+							<br>
+							<label>
+							  <input type="checkbox" name="Kolorystyka" value="Brąz"> Brąz
+							</label>
+							<br>
+							<label>
+							  <input type="checkbox" name="Kolorystyka" value="Szary"> Szary
+							</label>
+						</div>
+
+						<div style="float: right; width: 50%;">
+							<label>
+							  <input type="checkbox" name="Kolorystyka" value="Niebieski"> Niebieski
+							</label>
+							<br>
+							<label>
+							  <input type="checkbox" name="Kolorystyka" value="Zielony"> Zielony
+							</label>
+							<br>
+							<label>
+							  <input type="checkbox" name="Kolorystyka" value="Pudrowy-róż"> Pudrowy róż
+							</label>
+						</div>
+					</div>
+
+
+					<div class="second-second">
+						<p>Dekoracja</p>
+
+						<div style="float: left; width: 50%; ">
+							<label>
+							  <input type="checkbox" name="Dekoracja" value="Złoto"> Złoto
+							</label>
+							<br>
+							<label>
+							  <input type="checkbox" name="Dekoracja" value="Srebro"> Srebro
+							</label>
+
+						</div>
+
+						<div style="float: right; width: 50%;">
+							<label>
+							  <input type="checkbox" name="Dekoracja" value="Miedź"> Miedź
+							</label>
+							<br>
+							<label>
+							  <input type="checkbox" name="Dekoracja" value="Brak"> Brak
+							</label>
+						</div>
+					</div>
+
+					<div class="first-third">
+						<p>Odcienie</p>
+
+						<div style="float: left; width: 50%; ">
+							<label>
+							  <input type="checkbox" name="Odcienie" value="Jasne"> Jasne
+							</label>
+						</div>
+
+						<div style="float: right; width: 50%;">
+							<label>
+							  <input type="checkbox" name="Odcienie" value="Ciemne"> Ciemne
+							</label>
+						</div>
+					</div>
+
+					<div class="second-third">
+						<p>Dodaj przykładowe zdjęcie</p>
+						<input type="file" id="Zdjęcie" name="Zdjęcie">
+					</div>
+
+					<div class="first-4th">
+						<p>Dodatkowa wiadomość</p>
+
+						<textarea name="Wiadomość" rows="6">Tutaj wpisz dodatkową wiadomość...</textarea>
+
+					</div>
+
+
+					<div class="submit-button">
+						<p>Wyślij do wyceny</p>
+
+						<input type="email" value="Wpisz swojego maila.">
+
+						<input type="submit" value="Wyślij">
+
+					</div>
+				</div>
+			</form>
+
+
+
+    	</main>
+	</div>
+
+	<footer>
+		<div class="footer_text_box">
+			<div class="footer_text">
+			©️ 2023 Liquid-Art
+		</div>
+	</div>
+		<div class="social_media">
+			<a href="#"><img src="img/tt.png" alt="Tik Tok"></a>
+			<a href="#"><img src="img/ig.png" alt="Intagram"></a>
+			<a href="#"><img src="img/fb.png" alt="Facebook"></a>
+		</div>
+	</footer>
+</body>
+</html>

@@ -1,0 +1,77 @@
+  main {
+    margin:auto;
+    width:98%;
+    height:100%;
+    margin-top: 1%;
+  }
+
+  .sign {
+    width: 98%;
+    height: 25%;
+    margin-top: 2%;
+    display: flex;
+  }
+
+  .sig {
+    margin: auto;
+    transform: rotate(5deg);
+  }
+
+
+
+
+  .grid-box {
+    width: 98%;
+    height: 65%;
+    margin:auto;
+    position: absolute;
+    display: grid;
+    grid-template-columns: 33.333% 33.333% 33.333%;
+    text-align: center;
+    align-items: center;
+
+  }
+
+  .grid-box img {
+    width: 60%;
+  }
+
+  .text-box {
+    display: flex;
+  }
+
+
+  .text-box p {
+    color: black;
+    font-size: 25px;
+  }
+
+
+
+
+
+
+
+  .grid-box a {
+    text-align:center;
+    display:flex;
+    text-decoration:none;
+    background-color: #948c81;
+    color: #fff;
+    border: 2px solid #948c81;
+    border-radius: 20px;
+    padding: 10px;
+    cursor: pointer;
+    transition: all 0.3s ease-in-out;
+    width:50%;
+    justify-content: center;
+    margin:auto;
+    margin-top: 30px;
+  }
+
+  .grid-box a:hover {
+    background-color: #fff;
+    color: #948c81;
+  }
+
+
